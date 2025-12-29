@@ -1,42 +1,35 @@
 # Expense Forecasting Methods
 
-This repository contains forecasting methods implemented in Python, inspired by tasks encountered during my internship experience.  
-All data used is anonymized or simulated for confidentiality.
+This repository contains Python implementations of basic expense forecasting methods, inspired by tasks encountered during my internship.  
+All example data referenced in this repository is anonymized or simulated to maintain confidentiality.
 
 ## Project Overview
 
-During my internship, I worked on forecasting techniques to project future expenses based on historical data.  
-This repository demonstrates several basic forecasting approaches implemented in Python:
+During my internship, I worked with forecasting techniques to project future expenses based on historical data.  
+This repository demonstrates several fundamental forecasting approaches in Python, including:
 
 - Linear Regression
 - Moving Average
 - Exponential Smoothing
 
-The focus is on method implementation and result interpretation, not on specific company data.
+These methods are widely used in time series forecasting and provide a foundation for more advanced predictive analytics.
 
 ## Methods Included
 
-### Linear Regression
-The `linear_regression.py` script demonstrates a simple linear regression model applied to historical expense data
-to forecast future trends. It includes:
-- Data input and validation
-- Model training
-- Forecast generation
-- Error evaluation
+### 🧮 Linear Regression
+The `linear_regression.py` script demonstrates a simple linear regression model used to identify trends and forecast future values from historical data.
 
-### Moving Average
-The `moving_average.py` script implements a moving average forecast, suitable for smoothing time series data
-without trend or seasonality.
+### 📊 Moving Average
+The `moving_average.py` script implements a moving average approach that smooths out short-term fluctuations and highlights long-term trends in a series.
 
-### Exponential Smoothing
-The `exponential_smoothing.py` script applies single exponential smoothing using `statsmodels`
-to capture level trends in expense series.
+### 🔁 Exponential Smoothing
+The `exponential_smoothing.py` script applies single exponential smoothing using the `statsmodels` library to account for underlying trends in the data.
 
-## How to Use
+## Usage
 
-1. Prepare your data in a CSV file with a consistent date/time index and expense value column.
-2. Modify the script to point to your CSV dataset path.
-3. Run the Python script to generate forecast results and evaluation metrics.
+1. Prepare your own dataset in a CSV file with consistent chronological structure.
+2. Modify the script to reference your dataset file path.
+3. Run the script using Python:
 
 ```bash
 python linear_regression.py
