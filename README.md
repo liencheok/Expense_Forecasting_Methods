@@ -1,4 +1,4 @@
-## Business Expense Forecasting (Internship Project)
+# Business Expense Forecasting (Internship Project)
 
 This project analyzes historical company expense data to identify trends and support planning decisions.
 
